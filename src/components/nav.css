@@ -1,0 +1,125 @@
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 20%;
+    background-color: #001524;
+    height: 100vh;
+    /* position: sticky; */
+    /* top: 0; */
+    /* z-index: 10000; */
+}
+
+a {
+    text-decoration: none;
+}
+
+header h1 {
+    color: white;
+    font-size: 3em;
+}
+
+h1 > span {
+    color: #445D48;
+    font-size: 1.3em;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.url-content {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+}
+
+p > i {
+    font-size: 1.2em !important;
+}
+
+.url-content:hover {
+    color: #445D48;
+}
+
+.sosmed {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-size: 1.5em;
+}
+
+.sosmed > a {
+    background-color: transparent;
+    border: 1px solid white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: grid;
+    place-content: center;
+    color: white !important;
+    transition: ease-in-out 0.3s;
+    -webkit-transition: ease-in-out 0.3s;
+    -moz-transition: ease-in-out 0.3s;
+    -ms-transition: ease-in-out 0.3s;
+    -o-transition: ease-in-out 0.3s;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 0.8em !important;
+}
+
+.sosmed > a:hover {
+    background-color: white;
+    color: #001524 !important;
+}
+
+.header-title {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    gap: 10px;
+}
+
+.header-title > i {
+    color: white;
+    font-size: 1.5em;
+    padding: 10px;
+    background: #445d486e;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+
+.header-title > i.musicclick {
+    color: #445D48 !important;
+    background: white !important;
+    border: 1px solid white !important;
+    animation: Muter 10s linear infinite;
+    -webkit-animation: Muter 10s linear infinite;
+}
+
+@keyframes Muter {
+    transform {
+        rotate: 0deg;
+    }
+
+    to {
+        rotate: 360deg;
+    }
+}

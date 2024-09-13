@@ -1,0 +1,134 @@
+.testi {
+    display: flex;
+    flex-direction: row;
+    align-items: center;    
+}
+
+.testi-content {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    flex-direction: column;
+    background-color: #001c30;
+    color: white;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.testi-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 80%;
+    gap: 50px;
+    column-gap: 80px;
+}
+
+.testi-item {
+    /*border: 1px solid #ccc;
+    */display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    background-color: #001524;
+    padding: 10px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.testi-item > .cust-text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cust-img {
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: relative;
+    left: -15%;
+    background-color: #fff;
+}
+
+.testi-item:nth-child(1) > .cust-img {
+    background-image: url(../assets/testi-img/pacar-china.jpeg);
+}
+.testi-item:nth-child(2) > .cust-img {
+    background-image: url(../assets/testi-img/hoshino.jpeg);
+}
+.testi-item:nth-child(3) > .cust-img {
+    background-image: url(../assets/testi-img/pf.jpg);
+}
+.testi-item:nth-child(4) > .cust-img {
+    background-image: url(../assets/testi-img/nonomi.jpeg);
+}
+.testi-item:nth-child(5) > .cust-img {
+    background-image: url(../assets/testi-img/ayane.jpeg);
+}
+.testi-item:nth-child(6) > .cust-img {
+    background-image: url(../assets/testi-img/Rin.jpeg);
+}
+.testi-item:nth-child(7) > .cust-img {
+    background-image: url(../assets/testi-img/serika.jpeg);
+}
+.testi-item:nth-child(8) > .cust-img {
+    background-image: url(../assets/testi-img/shiroko.jpeg);
+}
+.testi-item:nth-child(9) > .cust-img {
+    background-image: url(../assets/testi-img/Frieren.jpg);
+}
+.testi-item:nth-child(10) > .cust-img {
+    background-image: url(../assets/testi-img/Stark.jpg);
+}
+.testi-item:nth-child(11) > .cust-img {
+    background-image: url(../assets/testi-img/fern.jpg);
+}
+.testi-item:nth-child(12) > .cust-img {
+    background-image: url(../assets/testi-img/Sein.jpg);
+}
+
+.fa-star {
+    color: #FABC3F;
+    font-size: 1em;
+}
+
+.cust-title {
+    h4 {
+        font-size: 1.7em;
+    }
+}
+
+.slider-navigation {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .slider-btn {
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    margin: 0 5px;
+    color: #ccc;
+    transition: color 0.3s;
+  }
+  
+  .slider-btn.active {
+    color: #333; 
+  }
+  
+  .slider-btn:hover {
+    color: #555; 
+  }
+  

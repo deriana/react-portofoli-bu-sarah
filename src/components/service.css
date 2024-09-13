@@ -1,0 +1,56 @@
+.service {
+    display: flex;
+    align-items: center;
+}
+
+.service-container {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #001c30;
+    height: 100vh;
+    color: white;
+}
+
+.service-container > h1 {
+    font-size: 3em;
+}
+
+.service-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* gap: 20px; */
+    place-items: center;
+    width: 90%;
+    row-gap: 50px;
+}
+
+.service-item {
+    width: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px white dashed;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.service-item > i {
+    color: #445D48;
+    font-size: 3em;
+}
+
+.service-item:hover {
+    background-color: #445D48;
+    color: white !important;
+    border-color: #445D48;
+    border: 1px solid #445D48;
+
+    i {
+        color: white;
+    }
+}

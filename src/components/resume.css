@@ -1,0 +1,108 @@
+.resume {
+    display: flex;
+    align-items: center;
+}
+
+.resume-container > h1 {
+    font-size: 3em;
+}
+
+.resume-container {
+    width: 100%;
+    background-color: #001c30;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    height: 100vh;
+}
+
+.resume-content-container {
+    display: flex;
+    gap: 100px;
+}
+
+.resume-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.resume-content-title {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: #445D48;
+}
+
+.resume-content-title > i {
+    font-size: 2em;
+}
+
+.resume-date {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.date-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.date-item > i {
+    font-size: 2em;
+    color: #445D48;
+}
+
+.date-item-text {
+    font-size: 1em;
+}
+
+.date-item-text > p {
+    color: #445D48;
+    font-weight: 300;
+}
+
+.date-item-text > h4 {
+    font-weight: 300;
+}
+
+.skill-container {
+    display: flex;
+}
+
+.skill-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.skill-bar {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2em;
+}
+
+.skill-bar-item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.bar {
+    background-color: #ffffff; /* White color for bar */
+    height: 10px; /* Height of the bar */
+    border-radius: 20px; /* Rounded corners */
+    transition: width 0.5s ease; /* Smooth transition when width changes */
+}
+
+/* Optional: Update container styles for better alignment */
+.skill-bar-item {
+    display: flex;
+    align-items: start;
+    gap: 10px;
+}

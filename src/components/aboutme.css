@@ -1,0 +1,122 @@
+.aboutme-content {
+    width: 100%;
+    background-color: #001c30;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.aboutme-title {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.aboutme-title>h1 {
+    text-align: center;
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.profile-img {
+    background-color: white;
+    padding: 10px;
+    display: grid;
+    place-items: center;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+img {
+    width: 400px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.profile-text {
+    width: 50%;
+    display: flex;
+    flex-direction:column ;
+    justify-content: space-between;
+    height: 90%;
+}
+
+.profile-text > div > h2 {
+    font-size: 2.5em;
+    color: #445D48;
+}
+
+.aboutme {
+    display: flex;
+    /* height: ; */
+    overflow: hidden;
+}
+
+.profile-button {
+    display: flex;
+    gap: 50px;
+
+    button {
+        padding: 10px 40px;
+        font-weight: bold;
+        font-size: 1em;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+        background: #445D48;
+        border: 1px solid transparent;
+        cursor: pointer;
+        transition: 0.5s ease-in-out;
+        -webkit-transition: 0.5s ease-in-out;
+        -moz-transition: 0.5s ease-in-out;
+        -ms-transition: 0.5s ease-in-out;
+        -o-transition: 0.5s ease-in-out;
+}
+
+    button:nth-child(2) {
+        background: transparent;
+        border: #445D48 solid 1px;
+
+        a {
+            color: #445D48;
+        }
+    }
+
+    a {
+        text-decoration: none;
+        color: #001c30;
+    }
+
+    button:hover {
+        background: transparent;
+        border: 1px solid #445D48;
+
+        a {
+            color: #445D48;
+        }
+    }
+    
+    button:nth-child(2):hover {
+        background: #445D48;
+        border: 1px solid transparent;
+        a {
+            color: #001c30;
+        }
+    }
+}

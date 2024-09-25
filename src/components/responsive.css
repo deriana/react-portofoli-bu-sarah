@@ -1,0 +1,323 @@
+@media (max-width: 768px) {
+    header {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        padding: 20px 0;
+        height: 100px;
+        justify-content: space-around;
+    }
+
+    .header-responsive {
+        height: auto;
+        padding: 20px 0px;
+    }
+
+    .header-title {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .header-title>div {
+        display: flex;
+        gap: 10px;
+
+        i {
+            font-size: 1.5em;
+            padding: 5px;
+            width: 30px;
+            height: 30px;
+            display: grid;
+            place-items: center;
+        }
+    }
+
+    .responsive-nav, .sosmed {
+        display: none;
+    }
+
+    .responsive-nav.open {
+        display: block;
+        /* display: flex;
+        flex-direction: column; */
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        max-height: 500px;
+    }
+
+    .header-responsive .responsive-nav {
+        transition: max-height 0.5s ease-in-out opacity 0.5s ease-in-out;
+        -webkit-transition: max-height 0.5s ease-in-out opacity 0.5s ease-in-out;
+        -moz-transition: max-height 0.5s ease-in-out opacity 0.5s ease-in-out;
+        -ms-transition: max-height 0.5s ease-in-out opacity 0.5s ease-in-out;
+        -o-transition: max-height 0.5s ease-in-out opacity 0.5s ease-in-out;
+}
+
+    .sosmed.responsive-nav.open {
+        display: block;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .fa-bars,
+    .fa-x {
+        display: block;
+    }
+
+    .header-title {
+        font-size: 0.8em;
+    }
+
+    .home {
+        display: flex;
+        flex-direction: column;
+        /* height: 100vh !important; */
+        background-size: cover;
+    }
+
+    .sosmed-about {
+        display: flex;
+    }
+
+    .home-text {
+        h3 {
+            font-size: 1.5em;
+        }
+
+        h1 {
+            font-size: 2em;
+
+        }
+    }
+
+    .aboutme {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .aboutme-content {
+        padding: 20px 0;
+    }
+
+    .profile-container {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .profile-img>img {
+        width: 250px;
+    }
+
+    .profile-text>div {
+        font-size: 1em;
+    }
+
+    .profile-text {
+        width: 70%;
+        gap: 20px;
+    }
+
+    .aboutme-title>h1 {
+        font-size: 1.5em;
+    }
+
+    .profile-button {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        button {
+            padding: 10px 30px !important;
+            width: 50%;
+        }
+    }
+
+    .resume {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .resume-container {
+        height: auto;
+        padding: 20px 0;
+
+        h1 {
+            font-size: 1.5em;
+        }
+    }
+
+    .resume-content-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .resume-content-title {
+        h1 {
+            font-size: 1.2em;
+        }
+    }
+
+    .date-item-text {
+        font-size: 0.8em;
+    }
+
+    .service {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        width: 100%;
+    }
+
+    .service-container {
+        padding: 20px 0;
+        height: auto;
+    }
+
+    .service-content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .service-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 250px;
+        width: 50%;
+    }
+
+    .service-container>h1 {
+        font-size: 1.5em;
+    }
+
+    .service-item>h2 {
+        font-size: 1.2em;
+    }
+
+    .service-item>p {
+        font-size: 0.8em;
+    }
+
+    .service-item>i {
+        font-size: 2em;
+    }
+
+    .portofolio {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .portofolio-content {
+        height: auto;
+        padding: 20px 0;
+
+        h1 {
+            font-size: 1.5em;
+        }
+    }
+
+    .portofolio-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .testi {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .testi-content {
+        padding: 20px 0;
+        height: auto;
+
+        h1 {
+            font-size: 1.5em;
+        }
+
+    }
+
+    .testi-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .testi-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cust-text {
+        width: 90% !important;
+    }
+
+    .cust-img {
+        left: 0;
+    }
+
+    .slider-navigation.responsive {
+        display: flex;
+    }
+
+    .slider-navigation {
+        display: none;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-content {
+        padding: 20px 0;
+        height: auto;
+        h1 {
+            font-size: 1.5em;
+        }
+    }
+
+    .contact-info {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .info {
+        i {
+            font-size: 1.5em;
+            width: 35px;
+            height: 35px;
+        }
+    }
+
+    .info-text {
+        h2 {
+            font-size: 1.2em;
+        }
+
+        p {
+            font-size: 0.8em;
+        }
+    }
+
+    form {
+        width: 80% !important;
+    }
+
+    form > button {
+        padding: 10px 30px;
+        width: 100%;
+    }
+}

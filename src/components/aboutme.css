@@ -9,6 +9,10 @@
     gap: 50px;
 }
 
+.sosmed-about {
+    display: none;
+}
+
 .aboutme-title {
     text-align: center;
     font-size: 1.5em;

@@ -84,14 +84,14 @@ p > i {
     color: #001524 !important;
 }
 
-.header-title {
+.header-title > div {
     display: flex;
     flex-direction: row;
     align-items: start;
     gap: 10px;
 }
 
-.header-title > i {
+.header-title > div > i, .header-title > i {
     color: white;
     font-size: 1.5em;
     padding: 10px;
@@ -106,12 +106,16 @@ p > i {
     border: 1px solid transparent;
 }
 
-.header-title > i.musicclick {
+.header-title i.musicclick {
     color: #445D48 !important;
     background: white !important;
     border: 1px solid white !important;
     animation: Muter 10s linear infinite;
     -webkit-animation: Muter 10s linear infinite;
+}
+
+.fa-bars{
+    display: none;
 }
 
 @keyframes Muter {
@@ -122,4 +126,8 @@ p > i {
     to {
         rotate: 360deg;
     }
+}
+
+.fa-bars, .fa-x {
+    display: none;
 }

@@ -12,7 +12,7 @@ const Contact = () => {
                         <i className="fa-solid fa-phone"></i>
                         <div className="info-text">
                             <h2>Call Me</h2>
-                            <p>123 456-7890</p>
+                            <p>+62 8958 0874 7030</p>
                             <p>201 535 4412</p>
                         </div>
                     </div>
@@ -20,15 +20,15 @@ const Contact = () => {
                         <i className="fa-solid fa-envelope"></i>
                         <div className="info-text">
                             <h2>E-Mail</h2>
-                            <p>contact@gmail.com</p>
-                            <p>info@gmail.com</p>
+                            <p>derana765@gmail.com</p>
+                            <p>hideri@gmail.com</p>
                         </div>
                     </div>
                     <div className="info">
                         <i className="fa-solid fa-location-dot"></i>
                         <div className="info-text">
                             <h2>Location</h2>
-                            <p>472 Central Road</p>
+                            <p>West Java</p>
                             <p>Indonesia</p>
                         </div>
                     </div>

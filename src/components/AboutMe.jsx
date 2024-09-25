@@ -33,6 +33,20 @@ const AboutMe = () => {
                             <button><a href={CV}>Download CV</a></button>
                             <button><a href="https://www.linkedin.com/in/deryana-maruf-00b926292/">Hire Me</a></button>
                         </div>
+                        <nav className="sosmed sosmed-about" >
+                            <a href="https://www.facebook.com/jerri.maruf" target="_blank" rel="noopener noreferrer">
+                                <i className="fa-brands fa-facebook-f"></i>
+                            </a>
+                            <a href="https://www.instagram.com/hi_deri_/" target="_blank" rel="noopener noreferrer">
+                                <i className="fa-brands fa-instagram"></i>
+                            </a>
+                            <a href="https://github.com/deriana" target="_blank" rel="noopener noreferrer">
+                                <i className="fa-brands fa-github"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/deryana-maruf-00b926292/" target="_blank" rel="noopener noreferrer">
+                                <i className="fa-brands fa-linkedin-in"></i>
+                            </a>
+                        </nav>
                     </div>
                 </div>
             </div>

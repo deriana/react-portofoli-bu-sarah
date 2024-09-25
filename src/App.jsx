@@ -7,6 +7,7 @@ import Service from './components/service'
 import Portofolio from './components/portofolio'
 import Testimonial from './components/Testimonial'
 import Contact from './components/contact'
+import "./components/responsive.css"
 
 
 function App() {

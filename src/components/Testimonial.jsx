@@ -121,7 +121,7 @@ const Testimonial = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentSlide((prevSlide) => (prevSlide + 1) % 3);
-    }, 3000); 
+    }, 4000);
 
     return () => clearInterval(interval);
   }, []);
@@ -140,6 +140,17 @@ const Testimonial = () => {
       <div className="testi-content">
         <h1>Testimonial</h1>
         <div className="testi-container">
+          <div className="slider-navigation responsive">
+            {[0, 1, 2].map((index) => (
+              <button
+                key={index}
+                className={`slider-btn ${currentSlide === index ? "active" : ""}`}
+                onClick={() => handleSlideChange(index)}
+              >
+                ●
+              </button>
+            ))}
+          </div>
           {currentTestimonials.map((testimonial, index) => (
             <div className="testi-item" key={index}>
               <div
